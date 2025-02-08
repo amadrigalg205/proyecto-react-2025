@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+    padding: 0;
+    margin: 0;
+    font-weight: normal;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Poppins';
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+body {
+    background: rgb(0, 15, 22);
+    background: linear-gradient(#0f0c29, #302b63, #24243e);    
+}
+
+h1 {
+    margin-bottom: 2rem;
+}
+
+h2 {
+    margin-bottom: 1rem;
+}
